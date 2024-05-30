@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    background-image: url(images/pexels-vishnurnair-1105666.jpg);
+    background-size: cover;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    color: #fbff00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.key {
+    background: #ff6600;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    color: white;
+    cursor: pointer;
+    flex: 1 1 100px;
+    font-size: 24px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+kbd {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.playing {
+    background: #48ff00;
+    box-shadow: 0 0 10px #ffab00;
+    transform: scale(1.1);
+}
+
+.sound {
+    font-size: 20px;
+    opacity: 0.8;
+    color: #fbff00;
+}
+
+.styled-text {
+    background-color: #ff723bd8;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.styled-text h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #fbff00;
+}

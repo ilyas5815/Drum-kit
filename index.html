@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Drum kit</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1>DRUM KIT</h1>
+    </header>
+
+    <div class="keys">
+
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">CLAP</span>
+        </div>
+
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">HIHAT</span>
+        </div>
+
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">KICK</span>
+        </div>
+
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">OPENHAT</span>
+        </div>
+
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">BOOM</span>
+        </div>
+
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">RIDE</span>
+        </div>
+
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">SNARE</span>
+        </div>
+
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">TOM</span>
+        </div>
+
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">TINK</span>
+        </div>
+
+    </div>
+
+    <div class="styled-text">
+        <h3>PRESS THE KEYS TO PLAY SOUNDS</h3>
+    </div>
+
+    <audio src="sounds/clap_super_mario_world.mp3" data-key="65"></audio>
+    <audio src="sounds/double_hihat.mp3" data-key="83"></audio>
+    <audio src="sounds/kick.mp3" data-key="68"></audio>
+    <audio src="sounds/drum_fill.mp3" data-key="70"></audio>    
+    <audio src="sounds/single_note_g.mp3" data-key="71"></audio>    
+    <audio src="sounds/clap_super_mario_world.mp3" data-key="72"></audio>    
+    <audio src="sounds/double_hihat.mp3" data-key="74"></audio>    
+    <audio src="sounds/drum_fill.mp3" data-key="75"></audio>    
+    <audio src="sounds/kick.mp3" data-key="76"></audio>  
+    
+    <script src="js/script.js"></script>
+
+    
+</body>
+
+</html>
